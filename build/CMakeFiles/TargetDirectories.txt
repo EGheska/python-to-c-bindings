@@ -1,0 +1,3 @@
+/home/pc/Templates/AdvancedProgamming/build/CMakeFiles/module_name.dir
+/home/pc/Templates/AdvancedProgamming/build/CMakeFiles/edit_cache.dir
+/home/pc/Templates/AdvancedProgamming/build/CMakeFiles/rebuild_cache.dir

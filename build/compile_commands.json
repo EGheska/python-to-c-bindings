@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/pc/Templates/AdvancedProgamming/build",
-  "command": "/usr/bin/c++ -Dmodule_name_EXPORTS -isystem /home/pc/Templates/AdvancedProgamming/venv/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -o CMakeFiles/module_name.dir/main.cpp.o -c /home/pc/Templates/AdvancedProgamming/main.cpp",
+  "command": "/usr/bin/c++ -Dmodule_name_EXPORTS -isystem /home/pc/.local/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/python3.10 -g -fPIC -fvisibility=hidden -o CMakeFiles/module_name.dir/main.cpp.o -c /home/pc/Templates/AdvancedProgamming/main.cpp",
   "file": "/home/pc/Templates/AdvancedProgamming/main.cpp"
 }
 ]

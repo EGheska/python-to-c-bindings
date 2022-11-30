@@ -306,8 +306,8 @@ PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 //Value Computed by CMake
 pybind11_BINARY_DIR:STATIC=/home/pc/Templates/AdvancedProgamming/build/pybind11
 
-//The directory containing a CMake configuration file for pybind11.
-pybind11_DIR:PATH=pybind11_DIR-NOTFOUND
+//No help, variable specified on the command line.
+pybind11_DIR:UNINITIALIZED=/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11
 
 //Value Computed by CMake
 pybind11_IS_TOP_LEVEL:STATIC=OFF
@@ -532,5 +532,5 @@ pybind11_FOUND:INTERNAL=TRUE
 //Directory where pybind11 headers are located
 pybind11_INCLUDE_DIR:INTERNAL=/home/pc/Templates/AdvancedProgamming/pybind11/include
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=/home/pc/Templates/AdvancedProgamming/venv/lib/python3.10/site-packages/pybind11/include;/usr/include/python3.10
+pybind11_INCLUDE_DIRS:INTERNAL=/home/pc/.local/lib/python3.10/site-packages/pybind11/include;/usr/include/python3.10
 

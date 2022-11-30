@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dmodule_name_EXPORTS
 
-CXX_INCLUDES = -isystem /home/pc/Templates/AdvancedProgamming/venv/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/python3.10
+CXX_INCLUDES = -isystem /home/pc/.local/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/python3.10
 
 CXX_FLAGS = -g -fPIC -fvisibility=hidden
 

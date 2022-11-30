@@ -16,4 +16,6 @@ PYBIND11_MODULE(module_name, handle){
     handle.doc() = "This is the module docs.";
     handle.def("sum",[](float param1, float param2){return param1+param2;});
     handle.def("subs",[](float param1, float param2){return param1-param2;});
+    handle.def("mult",[](float param1,float param2){return param1*param2;});
+    handle.def("div",[](float param1,float param2){return param1/param2;});
 }

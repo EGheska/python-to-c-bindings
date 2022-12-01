@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "module_name.cpython-310-x86_64-linux-gnu.so"
+			"path" : "calculator.cpython-310-x86_64-linux-gnu.so"
 		}
 	],
 	"backtrace" : 2,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake",
+			"venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -27,7 +27,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
@@ -56,7 +56,7 @@
 			"defines" : 
 			[
 				{
-					"define" : "module_name_EXPORTS"
+					"define" : "calculator_EXPORTS"
 				}
 			],
 			"includes" : 
@@ -64,7 +64,7 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/include"
+					"path" : "/home/pc/Templates/AdvancedProgamming/venv/lib/python3.10/site-packages/pybind11/include"
 				},
 				{
 					"backtrace" : 3,
@@ -79,7 +79,7 @@
 			]
 		}
 	],
-	"id" : "module_name::@6890427a1f51a3e7e1df",
+	"id" : "calculator::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -91,8 +91,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "module_name",
-	"nameOnDisk" : "module_name.cpython-310-x86_64-linux-gnu.so",
+	"name" : "calculator",
+	"nameOnDisk" : "calculator.cpython-310-x86_64-linux-gnu.so",
 	"paths" : 
 	{
 		"build" : ".",

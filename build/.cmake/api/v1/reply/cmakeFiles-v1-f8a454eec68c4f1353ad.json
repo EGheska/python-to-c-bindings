@@ -122,24 +122,19 @@
 			"path" : "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake"
+			"path" : "venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake"
+			"path" : "venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake"
+			"path" : "venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake"
+			"path" : "venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake"
+			"path" : "venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -147,8 +142,7 @@
 			"path" : "/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/pc/.local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake"
+			"path" : "venv/lib/python3.10/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake"
 		},
 		{
 			"isCMake" : true,

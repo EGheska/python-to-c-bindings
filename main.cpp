@@ -2,20 +2,37 @@
 
 namespace py = pybind11;
 class Calculator{
+    float sum;
+    float subs;
+    float mult;
+    float div;
+
     public: 
 
-float sum(float fn1,float fn2){
-    return fn1+fn2;
+float sum(float param1,float param2){
+    return param1+param2;
 }
-float subst(float fn1,float fn2){
-    return fn1-fn2;
+float subs(float param1,float param2){
+    return param1-param2;
+}
+float mult(float param1, float param2){
+    return param1*param2;
+}
+float div(float param1, float param2){
+    return param1/param2;
 }
 };
 
-PYBIND11_MODULE(module_name, handle){
-    handle.doc() = "This is the module docs.";
+
+
+PYBIND11_MODULE(calculator, handle){
     handle.def("sum",[](float param1, float param2){return param1+param2;});
     handle.def("subs",[](float param1, float param2){return param1-param2;});
     handle.def("mult",[](float param1,float param2){return param1*param2;});
     handle.def("div",[](float param1,float param2){return param1/param2;});
+    py::class_<Calculator>(
+        handle, "CalculatorClass"
+    );
 }
+
+

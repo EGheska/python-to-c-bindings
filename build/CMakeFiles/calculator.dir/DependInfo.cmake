@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pc/Templates/AdvancedProgamming/main.cpp" "CMakeFiles/module_name.dir/main.cpp.o" "gcc" "CMakeFiles/module_name.dir/main.cpp.o.d"
+  "/home/pc/Templates/AdvancedProgamming/main.cpp" "CMakeFiles/calculator.dir/main.cpp.o" "gcc" "CMakeFiles/calculator.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,3 +1,0 @@
-/home/pc/Templates/AdvancedProgamming/build/CMakeFiles/calculator.dir
-/home/pc/Templates/AdvancedProgamming/build/CMakeFiles/edit_cache.dir
-/home/pc/Templates/AdvancedProgamming/build/CMakeFiles/rebuild_cache.dir

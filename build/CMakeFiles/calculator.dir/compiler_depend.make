@@ -405,8 +405,82 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/uniform_int_dist.h \
   ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/options.h \
   ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/detail/init.h \
-  ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/gil.h
+  ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/gil.h \
+  ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/stl.h \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/c++/11/variant \
+  /usr/include/c++/11/bits/parse_numbers.h
 
+
+/usr/include/c++/11/variant:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/c++/11/set:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/c++/11/ostream:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/gil.h:
 
@@ -467,6 +541,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/11/stdexcept:
 
@@ -538,6 +614,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
+/usr/include/c++/11/bits/locale_facets.h:
+
 /usr/include/c++/11/bits/exception.h:
 
 /usr/include/c++/11/exception:
@@ -552,6 +630,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/python3.10/cpython/pyctype.h:
 
+/usr/include/c++/11/bits/valarray_array.tcc:
+
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/python3.10/bltinmodule.h:
@@ -563,6 +643,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/python3.10/import.h:
 
 /usr/include/python3.10/intrcheck.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/python3.10/osmodule.h:
 
@@ -583,6 +665,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/python3.10/cpython/pylifecycle.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/c++/11/bits/stl_list.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -640,6 +724,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
+/usr/include/c++/11/bits/basic_ios.tcc:
+
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/python3.10/structseq.h:
@@ -667,6 +753,10 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
@@ -744,6 +834,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/include/c++/11/map:
+
 ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/pybind11.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
@@ -752,7 +844,11 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/linux/posix_types.h:
 
+/usr/include/c++/11/cwctype:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/c++/11/bits/stl_multimap.h:
 
 ../main.cpp:
 
@@ -767,6 +863,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 ../venv/lib/python3.10/site-packages/pybind11/include/pybind11/detail/class.h:
 
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
+
+../venv/lib/python3.10/site-packages/pybind11/include/pybind11/stl.h:
 
 /usr/include/python3.10/methodobject.h:
 
@@ -804,6 +902,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/python3.10/objimpl.h:
 
+/usr/include/c++/11/bits/stl_deque.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
@@ -821,6 +921,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/python3.10/unicodeobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/11/list:
 
 /usr/include/python3.10/pylifecycle.h:
 
@@ -850,6 +952,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
+/usr/include/c++/11/bits/basic_ios.h:
+
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/python3.10/cpython/pymem.h:
@@ -867,6 +971,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/functional:
 
 /usr/include/linux/errno.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/python3.10/cpython/pytime.h:
 
@@ -1010,6 +1116,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
+/usr/include/c++/11/deque:
+
 /usr/include/linux/stat.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
@@ -1054,6 +1162,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
+/usr/include/c++/11/bits/locale_facets.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
@@ -1063,6 +1173,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/include/python3.10/longobject.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/linux/types.h:
 
@@ -1142,6 +1254,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/python3.10/memoryobject.h:
 
+/usr/include/c++/11/ios:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/utility:
@@ -1176,6 +1290,8 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/python3.10/pystate.h:
 
+/usr/include/c++/11/bits/valarray_before.h:
+
 /usr/include/python3.10/fileutils.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
@@ -1184,9 +1300,13 @@ CMakeFiles/calculator.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/python3.10/descrobject.h:
 
+/usr/include/c++/11/bits/stl_tree.h:
+
 /usr/include/python3.10/genericaliasobject.h:
 
 /usr/include/python3.10/pyerrors.h:
+
+/usr/include/wctype.h:
 
 /usr/include/sched.h:
 

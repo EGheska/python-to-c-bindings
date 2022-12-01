@@ -14,4 +14,7 @@ print(m.multiply(10))
 print(m.multiply_list([1,3,10]))
 
 #Class functions
-print(build.calculator.sum(2,2))
+print(build.calculator.div(2,0))
+
+#Test for tuple
+print(m.multiply_two_nr(10,100))

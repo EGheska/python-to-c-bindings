@@ -2,6 +2,7 @@
 #include <vector>
 #include <pybind11/stl.h>
 
+
 namespace py = pybind11;
 class Calculator{
 float multiplier;
@@ -29,6 +30,8 @@ std::vector<float>multiply_list(std::vector <float> items){
     }
     return items;
 }
+// py::tuple multiply_two_nr(float one, float two){return py::make_tuple(multiply(one),multiply(two));} //use it with lambda
+
 };
 
 
@@ -44,6 +47,9 @@ PYBIND11_MODULE(calculator, handle){
     .def(py::init<float>())
     .def("multiply",&Calculator::multiply)
     .def("multiply_list",&Calculator::multiply_list)
+    .def("multiply_two_nr",[](Calculator &self, float one, float two){
+    return py::make_tuple(self.multiply(one),self.multiply(two));
+    })
     ;
 }
 

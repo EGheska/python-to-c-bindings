@@ -15,7 +15,7 @@ pip install pybind11
 ```
 
 After installing, you can comile it with C++ compilator. Preferably uses CMake
-```
+```console
 cmake .. -Dpybind11_DIR=${python3 -m pybind11 --cmakedir}
 ```
 OR

@@ -50,11 +50,11 @@ $ python3 test.py
 
 This python program has written test functions for the bindings, so you can test it and work on it.
 
-## What is included in the program?
+## 3. What is included in the program?
 
 This program has several functions written in C++. These functions behave as a simple calculator class (notice, that not all the functions belong to this class, since the program show the functionality of the library, and it is nessesary to show that the standalone functions works). By executing them you can perform an addition, subtraction, multiplication and division functions. Also, the other part of functionality is that the pybinds can handle the `dynamic_array.cpp` class, which implements the dynamic array
 
-## In case the program is not working
+## 4. In case the program is not working
 
 The most common issue is that the caches of CMake is old and you have to renew it.
 

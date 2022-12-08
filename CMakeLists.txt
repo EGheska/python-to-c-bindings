@@ -5,3 +5,4 @@ project(simple_pybind)
 
 find_package(pybind11 CONFIG)
 pybind11_add_module(calculator main.cpp)
+pybind11_add_module(dynamic_array dynamic_array.cpp)

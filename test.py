@@ -1,5 +1,7 @@
 import build.calculator
 from build.calculator import *
+import build.dynamic_array
+
 
 print(dir(build.calculator))
 #Simple function
@@ -18,3 +20,14 @@ print(build.calculator.div(2,0))
 
 #Test for tuple
 print(m.multiply_two_nr(10,100))
+
+#Test dynamic array
+print("Dynamic array")
+
+arr = build.dynamic_array.DynamicArray()
+arr.append(1)
+arr.append(2)
+arr.append(3)
+print(arr.to_vector())
+
+

@@ -27,10 +27,10 @@ class DynamicArray{
 
 PYBIND11_MODULE(dynamic_array, m)
 {
-    py::class_<DynamicArray<int>>(m, "intArray")
+    py::class_<DynamicArray<py::object>>(m, "dynamicArray")
         .def(py::init<>())
-        .def("append", &DynamicArray<int>::append)
-        .def("to_vector", &DynamicArray<int>::to_vector)
-        .def("size", &DynamicArray<int>::size);
+        .def("append", &DynamicArray<py::object>::append)
+        .def("to_vector", &DynamicArray<py::object>::to_vector)
+        .def("size", &DynamicArray<py::object>::size);
 }
 

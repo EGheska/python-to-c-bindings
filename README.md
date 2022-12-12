@@ -2,6 +2,9 @@
 
 This is an example of implementation of a Pybind11 library in python which allows us to invoke C++ functions, classes and methods in python. 
 #
+#
+#
+
 Below you can find an examples of working C++ class, whose functional parts are awailable in the python.
 #
 ## 1. Set up
@@ -72,4 +75,18 @@ cd ..
 ## make sure that you are not in the build directory
 make
 ```
- 
+ ## 5. Importance of Pybind11
+
+Pybind11 is a library that allows developers to create Python bindings for C++ code. This can be useful in many scenarios, such as when a developer has existing C++ code that they want to make available to Python users, or when they want to take advantage of the performance of C++ while still using the convenience of the Python ecosystem.
+
+One of the main advantages of using Pybind11 is that it allows developers to write Python bindings in a way that is clean, efficient, and easy to maintain. This is because Pybind11 provides a simple and intuitive interface that makes it easy to bind C++ functions and classes to Python. Additionally, Pybind11 generates the necessary Python C-extension code automatically, which can save developers a lot of time and effort.
+
+Overall, Pybind11 is an important tool for developers who want to create Python bindings for their C++ code, and it can be very useful for optimizing the performance of Python programs.
+
+## 6. Links and references:
+
+https://realpython.com/python-bindings-overview/
+https://github.com/pybind/pybind11
+https://pybind11.readthedocs.io/en/stable/basics.html
+https://github.com/pybind/cmake_example
+

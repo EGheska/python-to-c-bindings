@@ -29,10 +29,7 @@ std::vector<float>multiply_list(std::vector <float> items){
         items[i] = multiply(items.at(i));
     }
     return items;
-}
-// py::tuple multiply_two_nr(float one, float two){return py::make_tuple(multiply(one),multiply(two));} //use it with lambda
-
-};
+}};
 
 
 
@@ -49,8 +46,4 @@ PYBIND11_MODULE(calculator, handle){
     .def("multiply_list",&Calculator::multiply_list)
     .def("multiply_two_nr",[](Calculator &self, float one, float two){
     return py::make_tuple(self.multiply(one),self.multiply(two));
-    })
-    ;
-}
-
-
+    });}

@@ -32,6 +32,7 @@ std::vector<float>multiply_list(std::vector <float> items){
 }};
 
 
+// PYBIND11_MODULE is a function that is used to define the Python bindings for a C++ library. 
 
 PYBIND11_MODULE(calculator, handle){
     handle.def("sum",[](float param1, float param2){return param1+param2;});

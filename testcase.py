@@ -22,10 +22,10 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(m.multiply(10), 50)
     def test_multiply_list(self):
         m = CalculatorClass(5)
-        self.assertEqual(m.multiply_list([1,3,10]), ([5,15,50]))
+        self.assertEqual(m.multiply_list(1,3,10), (5,15,50))
     def test_multiply_two_nr(self):
         m = CalculatorClass(5)
-        self.assertEqual(m.multiply_two_nr(10,100), ([50.0,500.0]))
+        self.assertEqual(m.multiply_two_nr(10,100), (50.0,500.0))
     def test_dynamic_array(self):
         arr = build.dynamic_array.dynamicArray()
         arr.append(1)

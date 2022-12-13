@@ -2,11 +2,11 @@
 
 This is an example of implementation of a Pybind11 library in python which allows us to invoke C++ functions, classes and methods in python. 
 #
-#
-#
+
+
 
 Below you can find an examples of working C++ class, whose functional parts are awailable in the python.
-#
+
 ## 1. Set up
  There is actually a few methods how to run this program. You can either run via terminal or using the `test.py` program, where everyrhing is implemented. 
 After sucsessfull downloading the code and opening it in code redactor (IDE) you firsly need to download pybind11 library in case if you don't have it. But, beware, you cannot run `test.py` before you do the steps below
@@ -37,8 +37,8 @@ For running the code, you have to install WSL (Windows subsystem for Linux) or i
 After a sucsessfull `make` the file, you can type `python3` in your terminal and start executing the functions
 
 ```python
->>> import calculator
->>> calculator.add(1,2)
+>>> import build.calculator
+>>> calculator.sum (1,2)
 3
 ```
 And you'll see the result of a computation in your python terminal.

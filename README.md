@@ -28,10 +28,13 @@ pybind11_add_module(<module_name> <main_binding_file>.cpp)
 target_link_libraries(<module_name> PRIVATE <library_name>)
 
 ```
-Replace ```<project_name>```, ```<library_name>```, and <module_name> with the desired names for your project, C++ library, and Python module, respectively. Replace
+Replace ```<project_name>```, ```<library_name>```, and ```<module_name>``` with the desired names for your project, C++ library, and Python module, respectively. Replace
 ```<source_file1>.cpp```, ```<source_file2>.cpp```, etc. with the names of the source files for your library, and replace ```<header_file1>.h```, ```<header_file2>.h```, etc.
 with the names of the header files for your library. Replace <main_binding_file>.cpp with the name of the main binding file that will contain the Python
 wrapper functions for your C++ library.
+
+This CMakeLists.txt file will build your C++ library and create a Python module that wraps the functions and classes in the library. To use the module in
+Python, you will need to build the project and install the module using CMake and Python.
 
 
 

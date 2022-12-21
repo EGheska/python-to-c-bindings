@@ -73,7 +73,7 @@ After a sucsessfull `make` the file, you can type `python3` in your terminal and
 
 ```python
 >>> import build.calculator
->>> calculator.sum (1,2)
+>>> build.calculator.sum (1,2)
 3
 ```
 And you'll see the result of a computation in your python terminal.

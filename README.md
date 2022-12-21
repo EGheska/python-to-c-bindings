@@ -6,9 +6,41 @@ This is an example of implementation of a Pybind11 library in python which allow
 
 
 Below you can find an examples of working C++ class, whose functional parts are awailable in the python.
+## 1 Set up 
+The first this  - must set up CMakeList.txt
+To set up a ```CMakeLists.txt``` file for using pybind11 to create Python bindings for a C++ library, you can use the following template:
+```
+make_minimum_required(VERSION 3.20)
 
-## 1. Set up
- There is actually a few methods how to run this program. You can either run via terminal or using the `test.py` program, where everyrhing is implemented. 
+# Set the project name and specify the C++ language standard
+project(<project_name>)
+
+# Add the pybind11 module and set the pybind11_MODULE flag to create a Python module
+find_package(pybind11 REQUIRED)
+
+# Create the library target
+add_library(<library_name> ${SOURCES} ${HEADERS})
+
+# Create the Python module target, could be multiple targets
+pybind11_add_module(<module_name> <main_binding_file>.cpp)
+
+# Link the library to the Python module target
+target_link_libraries(<module_name> PRIVATE <library_name>)
+
+```
+Replace <project_name>, <library_name>, and <module_name> with the desired names for your project, C++ library, and Python module, respectively. Replace
+<source_file1>.cpp, <source_file2>.cpp, etc. with the names of the source files for your library, and replace <header_file1>.h, <header_file2>.h, etc.
+with the names of the header files for your library. Replace <main_binding_file>.cpp with the name of the main binding file that will contain the Python
+wrapper functions for your C++ library.
+
+
+
+
+
+
+
+## 1.1 Set up
+There is actually a few methods how to run this program. You can either run via terminal or using the `test.py` program, where everyrhing is implemented. 
 After sucsessfull downloading the code and opening it in code redactor (IDE) you firsly need to download pybind11 library in case if you don't have it. But, beware, you cannot run `test.py` before you do the steps below
 
 So, go for 

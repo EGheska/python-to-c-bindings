@@ -63,23 +63,41 @@ make
 ```
 ## 1.2 Writing the modules
 To write the module to execute the program you first need to define the module
-``` 
-PYBIND11_MODULE(function_name, handler)
+```cpp 
+PYBIND11_MODULE(function_name, handle)
 ```
-Where ```function_name``` is the name of the function you want to execute in python and the ```handler``` is the python object which allows us to iterate in the module, the name of the variable could be whatever you want it to be or you can just leave handle in order to makes it work.
+Where ```function_name``` is the name of the function you want to execute in python and the ```handle``` is the python object which allows us to iterate in the module, the name of the variable could be whatever you want it to be or you can just leave handle in order to makes it work.
 
 After the definition we can write the instructions to the module what and how to do. The example instruction is
 ```
 handle.def("sum",[](float param1, float param2){return param1+param2;});
 ```
 Where ```handle``` is the python object which we passed in definition, ```.def``` is the standart python name of the function. In this function we're passing the name in this case ```"sum"```, empty array ```[]``` and the parameters. Also, we define what the module will return. In this case ```{return param1+param2;}```
-Example code for the module:
+. Example code for the module:
 ```cpp
 PYBIND11_MODULE(calculator, handle){
     handle.def("sum",[](float param1, float param2){return param1+param2;});
     handle.def("subs",[](float param1, float param2){return param1-param2;});
     handle.def("mult",[](float param1,float param2){return param1*param2;});
     handle.def("div",[](float param1,float param2){return param1/param2;});
+```
+In order to be able to pass an existing C++ class in the macros we should define it in ```PYBIND11_MODULE```. It is doable in the same way, but with minor changes. Instead of directly assign function to python function we first define the class.
+```cpp
+py::class_<Calculator>(
+        handle, "CalculatorClass"
+    )
+```
+Notice, that this one also uses ```handle``` as the python object to pass. The example code with class
+```cpp
+py::class_<Calculator>(
+        handle, "CalculatorClass"
+    )
+    .def(py::init<float>())
+    .def("multiply",&Calculator::multiply)
+    .def("multiply_list",&Calculator::multiply_list)
+    .def("multiply_two_nr",[](Calculator &self, float one, float two){
+    return py::make_tuple(self.multiply(one),self.multiply(two));
+    });}
 ```
 
 

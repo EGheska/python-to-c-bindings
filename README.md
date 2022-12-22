@@ -6,7 +6,7 @@ This is an example of implementation of a Pybind11 library in python which allow
 
 
 Below you can find an examples of working C++ class, whose functional parts are awailable in the python.
-## 1 Set up 
+## 1 Set up CMakeList.txt
 The first this  - must set up CMakeList.txt
 To set up a ```CMakeLists.txt``` file for using pybind11 to create Python bindings for a C++ library, you can use the following template:
 ```
@@ -42,7 +42,7 @@ Python, you will need to build the project and install the module using CMake an
 
 
 
-## 1.1 Set up
+## 1.1 Set up Pybind11
 There is actually a few methods how to run this program. You can either run via terminal or using the `test.py` program, where everyrhing is implemented. 
 After sucsessfull downloading the code and opening it in code redactor (IDE) you firsly need to download pybind11 library in case if you don't have it. But, beware, you cannot run `test.py` before you do the steps below
 

@@ -61,7 +61,18 @@ And after all of this you can run the written binds for python.
 ```console
 make
 ```
+## 1.2 Writing the modules
+To write the module to execute the program you first need to define the module
+``` 
+PYBIND11_MODULE(function_name, handler)
+```
+Where ```function_name``` is the name of the function you want to execute in python and the ```handler``` is the python object which allows us to iterate in the module, the name of the variable could be whatever you want it to be or you can just leave handle in order to makes it work.
 
+After the definition we can write the instructions to the module what and how to do. The example instruction is
+```
+handle.def("sum",[](float param1, float param2){return param1+param2;});
+```
+Where ```handle``` is the python object which we passed in definition, ```.def``` is the standart python name of the function. In this function we're passing the name in this case ```"sum"```, empty array ```[]``` and the parameters. Also, we define what the module will return. In this case ```{return param1+param2;}```
 
 ## 2. Executing the program
 

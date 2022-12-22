@@ -73,6 +73,15 @@ After the definition we can write the instructions to the module what and how to
 handle.def("sum",[](float param1, float param2){return param1+param2;});
 ```
 Where ```handle``` is the python object which we passed in definition, ```.def``` is the standart python name of the function. In this function we're passing the name in this case ```"sum"```, empty array ```[]``` and the parameters. Also, we define what the module will return. In this case ```{return param1+param2;}```
+Example code for the module:
+```cpp
+PYBIND11_MODULE(calculator, handle){
+    handle.def("sum",[](float param1, float param2){return param1+param2;});
+    handle.def("subs",[](float param1, float param2){return param1-param2;});
+    handle.def("mult",[](float param1,float param2){return param1*param2;});
+    handle.def("div",[](float param1,float param2){return param1/param2;});
+```
+
 
 ## 2. Executing the program
 
